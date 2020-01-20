@@ -1,0 +1,85 @@
+body {
+    /* bootstrap native font stack */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #1d1e22;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar
+{
+    text-align: center;
+    background-color: #303030;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbtn
+{
+    float: left;
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    border-right: 3px dashed #444444;
+    opacity: 0.8;
+    text-decoration: none;
+    min-width: 50px;
+    height: 25px;
+}
+
+.navbtn:hover
+{
+    background-color: #161616;
+    cursor: pointer;
+}
+
+#content
+{
+    border-radius: 10px;
+    float: left;
+    padding: 40px;
+    margin-top: 20px;
+    width: 925px;
+    width: 920px;
+    background-color: #dedede;
+    min-height: 550px;
+    text-align: justify;
+}
+
+#footer
+{
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.title
+{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.subtitle
+{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.line
+{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 5px;
+    border-bottom: 2px solid #444444;
+}
